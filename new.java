@@ -1,13 +1,10 @@
-class IF_ELSE
-{
-public static void main(String args[])
-{
-int i,j;
-i=100;j=5;
-if(j==0)
-System.out.println("division by error");
-else
-System.out.println(i+"divided by"+j+"is "+(i/j));
-i=i+j;
+import java.util.Scanner;
+class LogicalOperator{
+public static void main(String args[]){
+double var1=1+5;
+double var2=var1/4;
+int var3=1+5;
+int var4=var3/4;
+System.out.println(var2+" "+var4);
 }
 }
