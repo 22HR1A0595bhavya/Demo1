@@ -1,12 +1,13 @@
 import java.util.Scanner;
 class infinity{
 public static void main(String args[]){
-int i;
-int j;
+int i=1;
 int sum=0;
-for(i=0,j=100;i<=100&&j>=0;i++,j--)
+while(i<=100)
 {
-System.out.print(i+" ,"+j+",");
+sum=sum+i;
+i=i+5;
 }
+System.out.println(sum);
 }
 }

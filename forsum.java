@@ -2,11 +2,11 @@ import java.util.Scanner;
 class infinity{
 public static void main(String args[]){
 int i;
-int j;
 int sum=0;
-for(i=0,j=100;i<=100&&j>=0;i++,j--)
+for(i=0;i<=100;i=i+5)
 {
-System.out.print(i+" ,"+j+",");
-}
+sum=sum+i;}
+System.out.print(sum);
+
 }
 }
