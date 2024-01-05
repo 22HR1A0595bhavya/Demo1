@@ -1,24 +1,26 @@
 import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 class Test{
-public static void display(int n)
+public static void displayDay(int n)
 {
 switch(n)
 {
-case 0:{day="SUNDAY";break;}
-case 1:{day="MONDAY";break;}
-case 2:{day="TUESDAY";break;}
-case 3:{day="WEDNESDAY";break;}
-case 4:{day="THURSDAY";break;}
-case 5:{day="FRIDAY";break;}
-case 6:{day="SATURDAY";break;}
-default:day="INVALID";
+case 0:System.out.println("SUNDAY");break;
+case 1:System.out.println("MONDAY");break;
+case 2:System.out.println("TUESDAY");break;
+case 3:System.out.println("WEDNESDAY");break;
+case 4:System.out.println("THURSDAY");break;
+case 5:System.out.println("FRIDAY");break;}
+case 6:System.out.println("SATURDAY");break;
+default:System.out.println("INVALID");
 }
 }
- public static void main(String[] args)
+ public static void main(String args[])
 {
 scanner sc=new Scanner(System.in);
-int dn=sc.nextInt();
+int dn;
+dn=sc.nextInt();
+displayDay(dn);
 }
 }
 
