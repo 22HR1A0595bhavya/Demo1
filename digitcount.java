@@ -4,9 +4,9 @@ ArrayList<Character>a1;
 //Constructor 
 CharAtExample6(){
 a1=new ArrayList<Character>();
-a1.add('a');a1.add('e');a1.add('i');a1.add('o');
-a1.add('u');a1.add('A');a1.add('E');a1.add('I');
-a1.add('O');a1.add('U');
+a1.add('0');a1.add('1');a1.add('2');a1.add('3');
+a1.add('4');a1.add('5');a1.add('6');a1.add('7');
+a1.add('8');a1.add('9');
 }
 private boolean isVowel(char c){
 for(int i=0;i<a1.size();i++)
@@ -30,8 +30,8 @@ public static void main(String arg[])
 CharAtExample6 obj=new CharAtExample6();
 Scanner sc=new Scanner(System.in);
 String str=sc.nextLine();
-int noOfVowel=obj.countVowels(str);
+int noOfdigits=obj.countVowels(str);
 System.out.println("String  "+str);
-System.out.println("Total no.of vowels in the string are:"+noOfVowel+"\n");
+System.out.println("Total no.of digits in the string are:"+noOfdigits+"\n");
 }
 }
